@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 
 # Create your views here.
-def index1(request):
+def show_index(request):
     return render(request, 'templates/index1.html', {
         'foo': 'bar',
     }, content_type='application/xhtml+xml')
